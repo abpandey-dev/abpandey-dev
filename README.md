@@ -63,6 +63,8 @@ I'm a software quality engineer moving into **AI engineering**. I've spent years
 
 ## 📫 Connect
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-pandey-15351611b/)
+
 📍 Gurugram, India · Hybrid work, global impact
 
 ---
