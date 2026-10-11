@@ -22,7 +22,7 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 
 New profile, building in public. Projects will be linked here as they ship:
 
-- [ ] **LLM Eval Toolkit**: automated test suites for LLM apps (accuracy, hallucination and regression checks), built the way an SDET would build them
+- [x] **[LLM Eval Toolkit](https://github.com/abpandey-dev/llm-eval-toolkit)**: automated test suites for LLM apps (accuracy, hallucination and regression checks), built the way an SDET would build them · *v0.1 shipped*
 - [ ] **RAG Q&A with an eval harness**: a retrieval-augmented chatbot over docs, with automated evaluation in CI
 - [ ] **AI-assisted test generation**: LLMs drafting API / UI test cases from specs
 - [ ] **ML for data-pipeline quality**: anomaly checks on pipeline data, from the problems I solve at work
