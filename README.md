@@ -2,9 +2,12 @@
 
 ### QA → AI Engineer · Building reliable AI with a tester's mindset
 
-I'm a software quality engineer moving into **AI engineering**. I've spent years testing apps, APIs and data pipelines, and now I'm building LLM apps, agents and automation, with testing and evaluation built in from the start.
+I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software quality engineering, now moving into **AI engineering**. I've spent years testing apps, APIs and big-data pipelines, and now I'm building LLM apps, agents and automation, with testing and evaluation built in from the start.
 
 > *Ideas → Experiments → Impact* ☕ Fueled by chai & ideas.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abpandey--ai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abpandey-ai/)
+![Focus](https://img.shields.io/badge/Focus-LLM%20Evaluation%20%26%20AI%20Testing-7C3AED?style=for-the-badge)
 
 ---
 
@@ -13,7 +16,16 @@ I'm a software quality engineer moving into **AI engineering**. I've spent years
 - 🤖 Building **LLM-powered apps**: RAG, agents and tool use
 - 🧪 Applying my QA background to **AI evals**, so models are measured, not just demoed
 - ⚙️ Using AI to **automate testing**: test generation, failure analysis and reporting
-- 📚 Learning Machine Learning, Deep Learning, Generative AI and System Design
+- 📚 Learning Machine Learning, Deep Learning, Generative AI and System Design: **Data Science & ML at Scaler**
+
+## 🗺️ Project roadmap
+
+New profile, building in public. Projects will be linked here as they ship:
+
+- [ ] **LLM Eval Toolkit**: automated test suites for LLM apps (accuracy, hallucination and regression checks), built the way an SDET would build them
+- [ ] **RAG Q&A with an eval harness**: a retrieval-augmented chatbot over docs, with automated evaluation in CI
+- [ ] **AI-assisted test generation**: LLMs drafting API / UI test cases from specs
+- [ ] **ML for data-pipeline quality**: anomaly checks on pipeline data, from the problems I solve at work
 
 ## 🛠️ Tech stack
 
@@ -21,6 +33,9 @@ I'm a software quality engineer moving into **AI engineering**. I've spent years
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat&logo=scikitlearn&logoColor=white)
 ![Generative AI](https://img.shields.io/badge/Generative%20AI-8A2BE2?style=flat&logo=openai&logoColor=white)
+![LLMs](https://img.shields.io/badge/LLMs-111827?style=flat)
+![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0EA5E9?style=flat)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
 **Big Data & Cloud**
@@ -29,15 +44,18 @@ I'm a software quality engineer moving into **AI engineering**. I've spent years
 ![Athena](https://img.shields.io/badge/Athena-8C4FFF?style=flat&logo=amazonaws&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![NiFi](https://img.shields.io/badge/NiFi-728E9B?style=flat&logo=apache&logoColor=white)
 ![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?style=flat&logo=opensearch&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 
 **Test Automation**
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
 ![Appium](https://img.shields.io/badge/Appium-662D91?style=flat&logo=appium&logoColor=white)
+![PyTest](https://img.shields.io/badge/PyTest-0A9EDC?style=flat&logo=pytest&logoColor=white)
 ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-2E7D32?style=flat)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-CD3333?style=flat)
+![JMeter](https://img.shields.io/badge/JMeter-D22128?style=flat&logo=apachejmeter&logoColor=white)
 
 **Languages & Tooling**
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
@@ -48,12 +66,18 @@ I'm a software quality engineer moving into **AI engineering**. I've spent years
 
 ## 💼 Experience highlights
 
-- **Automation Testing**: web and mobile (Android) with Selenium and Appium
-- **API Testing**: Rest Assured and Postman, plus API migration work
-- **Big Data Testing**: pipelines on AWS (EMR, Athena), Kafka and Airflow, with monitoring in OpenSearch and Grafana
+- **Big Data Testing** *(Deutsche Telekom Digital Labs)*: pipelines on AWS (EMR, Athena), Kafka, Airflow and NiFi, with monitoring in OpenSearch and Grafana
+- **Automation Testing**: web and mobile (Android) with Selenium and Appium; cut manual regression on a personal-loan app by **35%**
+- **API Testing**: Rest Assured and Postman; delivered a **100% successful API migration** (EIT → Pennant)
 - **Database Testing**: SQL-based data validation
 - **CI/CD**: Java, TestNG, Maven and Jenkins
-- **Fintech domain**: lending products (CAPP, Joint Lending), Zephyr test management
+- **Fintech domain**: lending products (CAPP, Joint Lending with DBS Bank, **15+ critical defects** caught pre-production), Zephyr test management
+
+## 📜 Certifications & learning
+
+- Data Science & Machine Learning: **Scaler** *(pursuing)*
+- Supervised Machine Learning: **Stanford Online**
+- Data Analysis: **IBM**
 
 ## 🎯 Goals
 
@@ -63,7 +87,7 @@ I'm a software quality engineer moving into **AI engineering**. I've spent years
 
 ## 📫 Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-pandey-15351611b/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abhishek%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abpandey-ai/)
 
 📍 Gurugram, India · Hybrid work, global impact
 
