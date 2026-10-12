@@ -11,6 +11,13 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 
 ---
 
+## 📌 Featured projects
+
+**📡 [NOC Copilot](https://github.com/abpandey-dev/noc-copilot)**: agentic AI for 5G network operations. A Claude agent investigates network incidents (alarms, KPIs, change logs) with read-only tools, finds the root cause and proposes fixes for human approval, with EU AI Act-style oversight and an audit trail.
+→ Benchmark vs a classic alarm-rule baseline: **rules 60% · Claude Haiku 5.5 100% at $0.0023 per incident**, including incidents where the key alarm never arrived.
+
+**🧪 [LLM Eval Toolkit](https://github.com/abpandey-dev/llm-eval-toolkit)**: test LLM apps the way an SDET tests software. YAML test suites, deterministic assertions plus LLM-as-judge, and CI gates on pass rate.
+
 ## 🚀 What I'm working on
 
 - 🤖 Building **LLM-powered apps**: RAG, agents and tool use
@@ -23,6 +30,8 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 New profile, building in public. Projects will be linked here as they ship:
 
 - [x] **[LLM Eval Toolkit](https://github.com/abpandey-dev/llm-eval-toolkit)**: automated test suites for LLM apps (accuracy, hallucination and regression checks), built the way an SDET would build them · *v0.1 shipped*
+- [x] **[NOC Copilot](https://github.com/abpandey-dev/noc-copilot)**: agentic root-cause analysis for 5G network operations, benchmarked against ground truth · *v0.1 shipped*
+- [ ] **NOC Copilot v0.2**: harder benchmark with multi-fault incidents, cascading failures and misleading alarms
 - [ ] **RAG Q&A with an eval harness**: a retrieval-augmented chatbot over docs, with automated evaluation in CI
 - [ ] **AI-assisted test generation**: LLMs drafting API / UI test cases from specs
 - [ ] **ML for data-pipeline quality**: anomaly checks on pipeline data, from the problems I solve at work
