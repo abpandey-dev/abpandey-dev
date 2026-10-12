@@ -14,7 +14,9 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 ## 📌 Featured projects
 
 **📡 [NOC Copilot](https://github.com/abpandey-dev/noc-copilot)**: agentic AI for 5G network operations. A Claude agent investigates network incidents (alarms, KPIs, change logs) with read-only tools, finds the root cause and proposes fixes for human approval, with EU AI Act-style oversight and an audit trail.
-→ Benchmark vs a classic alarm-rule baseline: **rules 60% · Claude Haiku 5.5 100% at $0.0023 per incident**, including incidents where the key alarm never arrived.
+
+- Standard benchmark vs a classic alarm-rule baseline: **rules 60% · Claude Haiku 5.5 100% at $0.0023 per incident**, including incidents where the key alarm never arrived.
+- v0.2 hard suite (two faults at once, cascading failures, planned-maintenance decoys): **rules 30% · Haiku 100%**. A prompt ablation showed one line of NOC domain knowledge ("planned work is not a fault") stops the agent blaming a maintenance site.
 
 **🧪 [LLM Eval Toolkit](https://github.com/abpandey-dev/llm-eval-toolkit)**: test LLM apps the way an SDET tests software. YAML test suites, deterministic assertions plus LLM-as-judge, and CI gates on pass rate.
 
@@ -31,7 +33,8 @@ New profile, building in public. Projects will be linked here as they ship:
 
 - [x] **[LLM Eval Toolkit](https://github.com/abpandey-dev/llm-eval-toolkit)**: automated test suites for LLM apps (accuracy, hallucination and regression checks), built the way an SDET would build them · *v0.1 shipped*
 - [x] **[NOC Copilot](https://github.com/abpandey-dev/noc-copilot)**: agentic root-cause analysis for 5G network operations, benchmarked against ground truth · *v0.1 shipped*
-- [ ] **NOC Copilot v0.2**: harder benchmark with multi-fault incidents, cascading failures and misleading alarms
+- [x] **NOC Copilot v0.2**: hard benchmark with multi-fault incidents, cascading failures and maintenance decoys, plus a prompt ablation · *shipped*
+- [ ] **NOC Copilot v0.3**: messier data with alarm storms, missing KPIs, staggered fault start times and subtle degradations
 - [ ] **RAG Q&A with an eval harness**: a retrieval-augmented chatbot over docs, with automated evaluation in CI
 - [ ] **AI-assisted test generation**: LLMs drafting API / UI test cases from specs
 - [ ] **ML for data-pipeline quality**: anomaly checks on pipeline data, from the problems I solve at work
