@@ -17,6 +17,7 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 
 - Standard benchmark vs a classic alarm-rule baseline: **rules 60% · Claude Haiku 5.5 100% at $0.0023 per incident**, including incidents where the key alarm never arrived.
 - v0.2 hard suite (two faults at once, cascading failures, planned-maintenance decoys): **rules 30% · Haiku 100%**. A prompt ablation showed one line of NOC domain knowledge ("planned work is not a fault") stops the agent blaming a maintenance site.
+- v0.3 messy telemetry (alarm storms, missing KPI data, faults an hour apart, busy-hour masking): **rules 55% · Haiku 100% at $0.0041 per incident**, even with no domain hints in the prompt. The anomaly detector missed the early fault in every staggered incident; the agent found it from the change log, alarms and KPI history.
 
 **📶 [Telco Churn Copilot](https://github.com/abpandey-dev/telco-churn-copilot)**: ML + RAG + LLM for customer retention. Predicts which mobile customers will leave, explains why, and answers retention questions from company policy, with every citation checked against what was actually retrieved.
 
@@ -39,7 +40,7 @@ New profile, building in public. Projects will be linked here as they ship:
 - [x] **[LLM Eval Toolkit](https://github.com/abpandey-dev/llm-eval-toolkit)**: automated test suites for LLM apps (accuracy, hallucination and regression checks), built the way an SDET would build them · *v0.1 shipped*
 - [x] **[NOC Copilot](https://github.com/abpandey-dev/noc-copilot)**: agentic root-cause analysis for 5G network operations, benchmarked against ground truth · *v0.1 shipped*
 - [x] **NOC Copilot v0.2**: hard benchmark with multi-fault incidents, cascading failures and maintenance decoys, plus a prompt ablation · *shipped*
-- [ ] **NOC Copilot v0.3**: messier data with alarm storms, missing KPIs, staggered fault start times and subtle degradations
+- [x] **NOC Copilot v0.3**: messy-telemetry benchmark with alarm storms, missing KPIs, staggered fault start times and busy-hour masking · *shipped*
 - [x] **[Telco Churn Copilot](https://github.com/abpandey-dev/telco-churn-copilot)**: churn ML + RAG over policies + LLM copilot with citation checks, executed notebook and retrieval eval in CI · *v0.1 shipped*
 - [ ] **AI-assisted test generation**: LLMs drafting API / UI test cases from specs
 - [ ] **ML for data-pipeline quality**: anomaly checks on pipeline data, from the problems I solve at work
