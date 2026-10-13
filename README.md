@@ -18,6 +18,11 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 - Standard benchmark vs a classic alarm-rule baseline: **rules 60% · Claude Haiku 5.5 100% at $0.0023 per incident**, including incidents where the key alarm never arrived.
 - v0.2 hard suite (two faults at once, cascading failures, planned-maintenance decoys): **rules 30% · Haiku 100%**. A prompt ablation showed one line of NOC domain knowledge ("planned work is not a fault") stops the agent blaming a maintenance site.
 
+**📶 [Telco Churn Copilot](https://github.com/abpandey-dev/telco-churn-copilot)**: ML + RAG + LLM for customer retention. Predicts which mobile customers will leave, explains why, and answers retention questions from company policy, with every citation checked against what was actually retrieved.
+
+- **ML:** logistic regression (ROC-AUC 0.756) beats gradient boosting (0.716); the model recovers the 6 true churn drivers built into the data. Cologne churns most, but the cause is its network, not the city.
+- **RAG:** policy search measured on 15 questions (hit@3 87%); copilot answers checked against GDPR, offer and compensation rules, about $0.001-0.003 per answer with Claude Haiku 5.5.
+
 **🧪 [LLM Eval Toolkit](https://github.com/abpandey-dev/llm-eval-toolkit)**: test LLM apps the way an SDET tests software. YAML test suites, deterministic assertions plus LLM-as-judge, and CI gates on pass rate.
 
 ## 🚀 What I'm working on
@@ -35,7 +40,7 @@ New profile, building in public. Projects will be linked here as they ship:
 - [x] **[NOC Copilot](https://github.com/abpandey-dev/noc-copilot)**: agentic root-cause analysis for 5G network operations, benchmarked against ground truth · *v0.1 shipped*
 - [x] **NOC Copilot v0.2**: hard benchmark with multi-fault incidents, cascading failures and maintenance decoys, plus a prompt ablation · *shipped*
 - [ ] **NOC Copilot v0.3**: messier data with alarm storms, missing KPIs, staggered fault start times and subtle degradations
-- [ ] **RAG Q&A with an eval harness**: a retrieval-augmented chatbot over docs, with automated evaluation in CI
+- [x] **[Telco Churn Copilot](https://github.com/abpandey-dev/telco-churn-copilot)**: churn ML + RAG over policies + LLM copilot with citation checks, executed notebook and retrieval eval in CI · *v0.1 shipped*
 - [ ] **AI-assisted test generation**: LLMs drafting API / UI test cases from specs
 - [ ] **ML for data-pipeline quality**: anomaly checks on pipeline data, from the problems I solve at work
 
@@ -49,6 +54,10 @@ New profile, building in public. Projects will be linked here as they ship:
 ![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0EA5E9?style=flat)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 **Big Data & Cloud**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
