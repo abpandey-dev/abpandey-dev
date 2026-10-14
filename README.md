@@ -7,7 +7,7 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 > *Ideas → Experiments → Impact* ☕ Fueled by chai & ideas.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-abpandey--ai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abpandey-ai/)
-![Focus](https://img.shields.io/badge/Focus-LLM%20Evaluation%20%26%20AI%20Testing-7C3AED?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Focus-AI%20Agents%20%C2%B7%20RAG%20%C2%B7%20LLM%20Apps-7C3AED?style=for-the-badge)
 
 ---
 
@@ -48,8 +48,8 @@ New profile, building in public. Projects will be linked here as they ship:
 - [x] **NOC Copilot v0.3**: messy-telemetry benchmark with alarm storms, missing KPIs, staggered fault start times and busy-hour masking · *shipped*
 - [x] **[Telco Churn Copilot](https://github.com/abpandey-dev/telco-churn-copilot)**: churn ML + RAG over policies + LLM copilot with citation checks, executed notebook and retrieval eval in CI · *v0.1 shipped*
 - [x] **[Agent Memory Engine](https://github.com/abpandey-dev/agent-memory-engine)**: long-term agent memory with history, hybrid graph + keyword recall, an MCP server and a benchmark against full-context and RAG · *v0.1 shipped*
-- [ ] **AI-assisted test generation**: LLMs drafting API / UI test cases from specs
-- [ ] **ML for data-pipeline quality**: anomaly checks on pipeline data, from the problems I solve at work
+- [ ] **Agent Memory Engine v0.2**: dense-embedding recall and a run on the public LongMemEval benchmark
+- [ ] **NOC Copilot v0.4**: scale test with thousands of cells and multi-hour windows, where tool output no longer fits in one context
 
 ## 🛠️ Tech stack
 
