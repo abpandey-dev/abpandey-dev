@@ -13,6 +13,11 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 
 ## 📌 Featured projects
 
+**🧠 [Agent Memory Engine](https://github.com/abpandey-dev/agent-memory-engine)**: long-term memory for AI agents, served over **MCP** so Claude Code or any agent can use it. Claude extracts facts from conversations and decides whether each is new, an update (the old fact is kept as history) or already known. Recall blends keyword search with an entity graph.
+
+- Benchmark on 72 questions: **memory engine 100% · whole history in the prompt 100% · search over raw chat logs 25% · no memory 17%**. With 32 conversations the memory engine needs **9× fewer tokens** per question than pasting the history.
+- Says "I don't know" instead of guessing (12/12 never-mentioned facts), and answers both "where do I live?" and "where did I live before?".
+
 **📡 [NOC Copilot](https://github.com/abpandey-dev/noc-copilot)**: agentic AI for 5G network operations. A Claude agent investigates network incidents (alarms, KPIs, change logs) with read-only tools, finds the root cause and proposes fixes for human approval, with EU AI Act-style oversight and an audit trail.
 
 - Standard benchmark vs a classic alarm-rule baseline: **rules 60% · Claude Haiku 5.5 100% at $0.0023 per incident**, including incidents where the key alarm never arrived.
@@ -42,6 +47,7 @@ New profile, building in public. Projects will be linked here as they ship:
 - [x] **NOC Copilot v0.2**: hard benchmark with multi-fault incidents, cascading failures and maintenance decoys, plus a prompt ablation · *shipped*
 - [x] **NOC Copilot v0.3**: messy-telemetry benchmark with alarm storms, missing KPIs, staggered fault start times and busy-hour masking · *shipped*
 - [x] **[Telco Churn Copilot](https://github.com/abpandey-dev/telco-churn-copilot)**: churn ML + RAG over policies + LLM copilot with citation checks, executed notebook and retrieval eval in CI · *v0.1 shipped*
+- [x] **[Agent Memory Engine](https://github.com/abpandey-dev/agent-memory-engine)**: long-term agent memory with history, hybrid graph + keyword recall, an MCP server and a benchmark against full-context and RAG · *v0.1 shipped*
 - [ ] **AI-assisted test generation**: LLMs drafting API / UI test cases from specs
 - [ ] **ML for data-pipeline quality**: anomaly checks on pipeline data, from the problems I solve at work
 
@@ -59,6 +65,9 @@ New profile, building in public. Projects will be linked here as they ship:
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-6E56CF?style=flat)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-D97757?style=flat&logo=anthropic&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 **Big Data & Cloud**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
