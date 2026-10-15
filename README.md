@@ -33,6 +33,7 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 
 - **Caught a definition change:** in Dec 2025 TRAI started counting machine (M2M) SIMs, adding **68.5M** to Airtel overnight. On consumer SIMs, **Jio's lead grew from 70M to 76M** (41.8% vs 35.2%).
 - July 2024 tariff hikes: **Jio lost 16.5M** subscribers in four months while BSNL gained 6.8M; Jio won them all back. Only **57% of BSNL's SIMs** are active.
+- **Ask the data with Claude:** a `telecom-ask` agent answers plain-English questions through 7 read-only tools, and every number in its answer is checked against the tool outputs. It caught a wrong average in my own README (1.35M, not 1.55M monthly net adds). About $0.002 per question.
 
 **🎬 [Netflix Insights](https://github.com/abpandey-dev/netflix-insights)**: what the world actually watches. 17,370 titles and 23.4B views from Netflix's own published data, matched to IMDb (88% of views), plus three recommenders tested against each other.
 
@@ -65,7 +66,7 @@ New profile, building in public. Projects will be linked here as they ship:
 - [x] **[Agent Memory Engine](https://github.com/abpandey-dev/agent-memory-engine)**: long-term agent memory with history, hybrid graph + keyword recall, an MCP server and a benchmark against full-context and RAG · *v0.1 shipped*
 - [x] **[Rail Punctuality](https://github.com/abpandey-dev/rail-punctuality)**: real-world data project on 136 Indian long-distance trains: polite collector, validated dataset, punctuality findings and charts · *v0.1 shipped*
 - [x] **[Netflix Insights](https://github.com/abpandey-dev/netflix-insights)**: official Netflix viewing data + IMDb: directors, genres, decay, country taste and tested recommenders · *v0.1 shipped*
-- [x] **[Jio vs Airtel](https://github.com/abpandey-dev/telecom-india)**: verified TRAI subscriber data, M2M-corrected market share, tariff-shock and circle analysis · *v0.1 shipped*
+- [x] **[Jio vs Airtel](https://github.com/abpandey-dev/telecom-india)**: verified TRAI subscriber data, M2M-corrected market share, tariff-shock and circle analysis, plus a Claude "ask the data" assistant with a number check · *v0.2 shipped*
 - [ ] **Agent Memory Engine v0.2**: dense-embedding recall and a run on the public LongMemEval benchmark
 - [ ] **NOC Copilot v0.4**: scale test with thousands of cells and multi-hour windows, where tool output no longer fits in one context
 
