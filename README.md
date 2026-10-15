@@ -29,6 +29,11 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 - **ML:** logistic regression (ROC-AUC 0.756) beats gradient boosting (0.716); the model recovers the 6 true churn drivers built into the data. Cologne churns most, but the cause is its network, not the city.
 - **RAG:** policy search measured on 15 questions (hit@3 87%); copilot answers checked against GDPR, offer and compensation rules, about $0.001-0.003 per answer with Claude Haiku 5.5.
 
+**🎬 [Netflix Insights](https://github.com/abpandey-dev/netflix-insights)**: what the world actually watches. 17,370 titles and 23.4B views from Netflix's own published data, matched to IMDb (88% of views), plus three recommenders tested against each other.
+
+- **Best-rated and most-watched directors don't overlap**: Jackson, Tarantino, Nolan vs the directors of new Netflix releases (*War Machine*, *The Rip*). The top 1% of titles get 22% of all views; ratings barely predict views.
+- **Recommenders, measured:** "watched by the same audiences" (collaborative) beats genre similarity **16.7% vs 2.3%** recall@20, which is why Netflix leans on viewing behaviour.
+
 **🚆 [Rail Punctuality](https://github.com/abpandey-dev/rail-punctuality)**: how late are India's long-distance trains? Six months of real running history for 136 trains (20,461 runs), collected politely, validated against the source and analysed with pandas.
 
 - Rajdhani, Shatabdi and Vande Bharat are on time **~80%** of the time; Mail/Express **45%**. Average delay **41 min**, median **6 min**.
@@ -54,6 +59,7 @@ New profile, building in public. Projects will be linked here as they ship:
 - [x] **[Telco Churn Copilot](https://github.com/abpandey-dev/telco-churn-copilot)**: churn ML + RAG over policies + LLM copilot with citation checks, executed notebook and retrieval eval in CI · *v0.1 shipped*
 - [x] **[Agent Memory Engine](https://github.com/abpandey-dev/agent-memory-engine)**: long-term agent memory with history, hybrid graph + keyword recall, an MCP server and a benchmark against full-context and RAG · *v0.1 shipped*
 - [x] **[Rail Punctuality](https://github.com/abpandey-dev/rail-punctuality)**: real-world data project on 136 Indian long-distance trains: polite collector, validated dataset, punctuality findings and charts · *v0.1 shipped*
+- [x] **[Netflix Insights](https://github.com/abpandey-dev/netflix-insights)**: official Netflix viewing data + IMDb: directors, genres, decay, country taste and tested recommenders · *v0.1 shipped*
 - [ ] **Agent Memory Engine v0.2**: dense-embedding recall and a run on the public LongMemEval benchmark
 - [ ] **NOC Copilot v0.4**: scale test with thousands of cells and multi-hour windows, where tool output no longer fits in one context
 
