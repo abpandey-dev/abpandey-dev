@@ -29,6 +29,11 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 - **ML:** logistic regression (ROC-AUC 0.756) beats gradient boosting (0.716); the model recovers the 6 true churn drivers built into the data. Cologne churns most, but the cause is its network, not the city.
 - **RAG:** policy search measured on 15 questions (hit@3 87%); copilot answers checked against GDPR, offer and compensation rules, about $0.001-0.003 per answer with Claude Haiku 5.5.
 
+**📶 [Jio vs Airtel](https://github.com/abpandey-dev/telecom-india)**: India's mobile market from TRAI's own monthly reports. 31 months x 22 circles extracted from 30 PDFs (ruled, sideways and scanned tables), every operator-month checked against TRAI's totals.
+
+- **Caught a definition change:** in Dec 2025 TRAI started counting machine (M2M) SIMs, adding **68.5M** to Airtel overnight. On consumer SIMs, **Jio's lead grew from 70M to 76M** (41.8% vs 35.2%).
+- July 2024 tariff hikes: **Jio lost 16.5M** subscribers in four months while BSNL gained 6.8M; Jio won them all back. Only **57% of BSNL's SIMs** are active.
+
 **🎬 [Netflix Insights](https://github.com/abpandey-dev/netflix-insights)**: what the world actually watches. 17,370 titles and 23.4B views from Netflix's own published data, matched to IMDb (88% of views), plus three recommenders tested against each other.
 
 - **Best-rated and most-watched directors don't overlap**: Jackson, Tarantino, Nolan vs the directors of new Netflix releases (*War Machine*, *The Rip*). The top 1% of titles get 22% of all views; ratings barely predict views.
@@ -60,6 +65,7 @@ New profile, building in public. Projects will be linked here as they ship:
 - [x] **[Agent Memory Engine](https://github.com/abpandey-dev/agent-memory-engine)**: long-term agent memory with history, hybrid graph + keyword recall, an MCP server and a benchmark against full-context and RAG · *v0.1 shipped*
 - [x] **[Rail Punctuality](https://github.com/abpandey-dev/rail-punctuality)**: real-world data project on 136 Indian long-distance trains: polite collector, validated dataset, punctuality findings and charts · *v0.1 shipped*
 - [x] **[Netflix Insights](https://github.com/abpandey-dev/netflix-insights)**: official Netflix viewing data + IMDb: directors, genres, decay, country taste and tested recommenders · *v0.1 shipped*
+- [x] **[Jio vs Airtel](https://github.com/abpandey-dev/telecom-india)**: verified TRAI subscriber data, M2M-corrected market share, tariff-shock and circle analysis · *v0.1 shipped*
 - [ ] **Agent Memory Engine v0.2**: dense-embedding recall and a run on the public LongMemEval benchmark
 - [ ] **NOC Copilot v0.4**: scale test with thousands of cells and multi-hour windows, where tool output no longer fits in one context
 
