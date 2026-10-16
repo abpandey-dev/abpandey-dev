@@ -18,6 +18,11 @@ I'm an **SDET-2 at Deutsche Telekom Digital Labs** with **6+ years** in software
 - Benchmark on 72 questions: **memory engine 100% · whole history in the prompt 100% · search over raw chat logs 25% · no memory 17%**. With 32 conversations the memory engine needs **9× fewer tokens** per question than pasting the history.
 - Says "I don't know" instead of guessing (12/12 never-mentioned facts), and answers both "where do I live?" and "where did I live before?".
 
+**🗜️ [Context Compressor](https://github.com/abpandey-dev/context-compressor)**: shrinks what tools hand an LLM (API JSON, logs, documents) before it reaches the model, and measures whether the answers survive. Lossless JSON tables, log pattern mining and BM25 selection, with zero dependencies.
+
+- Benchmark on 53 questions over real GitHub API responses, TRAI data and a 1,700-line incident log (Claude Haiku 5.5): **82% fewer tokens, 52/53 correct, the same as uncompressed**. The log drops from 91K to 2.2K tokens.
+- **What breaks:** query-based selection falls to 61% on counts and totals, and Claude's own summaries round numbers ("about 48" for 47). On the full raw log the model miscounted; the precomputed pattern count was exact.
+
 **📡 [NOC Copilot](https://github.com/abpandey-dev/noc-copilot)**: agentic AI for 5G network operations. A Claude agent investigates network incidents (alarms, KPIs, change logs) with read-only tools, finds the root cause and proposes fixes for human approval, with EU AI Act-style oversight and an audit trail.
 
 - Standard benchmark vs a classic alarm-rule baseline: **rules 60% · Claude Haiku 5.5 100% at $0.0023 per incident**, including incidents where the key alarm never arrived.
@@ -67,6 +72,7 @@ New profile, building in public. Projects will be linked here as they ship:
 - [x] **[Rail Punctuality](https://github.com/abpandey-dev/rail-punctuality)**: real-world data project on 136 Indian long-distance trains: polite collector, validated dataset, punctuality findings and charts · *v0.1 shipped*
 - [x] **[Netflix Insights](https://github.com/abpandey-dev/netflix-insights)**: official Netflix viewing data + IMDb: directors, genres, decay, country taste and tested recommenders · *v0.1 shipped*
 - [x] **[Jio vs Airtel](https://github.com/abpandey-dev/telecom-india)**: verified TRAI subscriber data, M2M-corrected market share, tariff-shock and circle analysis, plus a Claude "ask the data" assistant with a number check · *v0.2 shipped*
+- [x] **[Context Compressor](https://github.com/abpandey-dev/context-compressor)**: token compression for tool outputs (lossless JSON tables, log patterns, BM25 select) with a 53-question accuracy benchmark on Claude · *v0.1 shipped*
 - [ ] **Agent Memory Engine v0.2**: dense-embedding recall and a run on the public LongMemEval benchmark
 - [ ] **NOC Copilot v0.4**: scale test with thousands of cells and multi-hour windows, where tool output no longer fits in one context
 
